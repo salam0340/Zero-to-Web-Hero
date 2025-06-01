@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Static Layout</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Welcome to our website. Explore our services and offerings.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We provide top-tier web solutions to clients worldwide.</p>
+      <ul>
+        <li>Quality</li>
+        <li>Reliability</li>
+      </ul>
+      <table border="1">
+        <tr><th>Feature</th><th>Benefit</th></tr>
+        <tr><td>Responsive</td><td>Mobile-friendly</td></tr>
+        <tr><td>Fast</td><td>Quick load times</td></tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Developed By: &copy; 2025 Abdus Salam</p>
+  </footer>
+</body>
+</html>
